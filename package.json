@@ -1,0 +1,34 @@
+{
+    "name": "blog",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon --inspect index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Learncode-every-day/nodejs_blog.git"
+    },
+    "keywords": [
+        "nodejs",
+        "blog",
+        "node",
+        "js",
+        "ThanhLuan"
+    ],
+    "author": "ThanhLuan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Learncode-every-day/nodejs_blog/issues"
+    },
+    "homepage": "https://github.com/Learncode-every-day/nodejs_blog#readme",
+    "dependencies": {
+        "blog": "file:",
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.4"
+    }
+}
